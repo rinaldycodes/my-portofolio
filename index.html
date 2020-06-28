@@ -1,0 +1,207 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.13.1/css/all.min.css">
+	<link rel="stylesheet" href="./bootstrap/css/bootstrap.min.css">
+	<title>Rinaldy Ramadhan</title>
+	<link rel="stylesheet" href="./css/style.css">
+</head>
+<body>
+	<header class="header-home">
+		<div class="header-home"></div>
+		<nav class="navbar navbar-expand-lg navbar-light">
+		  <div class="container">
+		    <a class="navbar-brand" href="#">RinaldyRa</a>
+		    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+		      <span class="navbar-toggler-icon"></span>
+		    </button>
+		    <div class="collapse navbar-collapse" id="navbarSupportedContent">
+		      <ul class="navbar-nav ml-auto mb-2 mb-lg-0">
+		        <li class="nav-item">
+		          <a class="nav-link active" aria-current="page" href="#">Home</a>
+		        </li>
+		        <li class="nav-item">
+		          <a class="nav-link" href="#project">Project</a>
+		        </li>
+		        <li class="nav-item">
+		          <a class="nav-link" href="#about-me">About</a>
+		        </li>
+		        <li class="nav-item">
+		          <a class="nav-link" href="#contact">Contact</a>
+		        </li>
+		        <li class="nav-item">
+		          <a class="nav-link btn btn-cta" href="#">H I R E</a>
+		        </li>
+		      </ul>
+		    </div>
+		  </div>
+		</nav>
+
+		<section class="me">
+			<div class="container">
+				<p class="para1">Hi, I am </p>
+				<h1>Rinaldy Ramadhan</h1>
+				<h2>Fullstack Developer</h2>
+				<p class="para2 d-none d-sm-block">I specialize in building website, usable products with blazing-fast efficiency.</p>
+			</div>
+		</section>
+	</header>
+
+	<main>
+		<section class="about-me bg-dark text-white" id="about-me">
+			<div class="container">
+				<div class="row align-items-center">
+					<div class="col-lg-6">
+						<h2>About me</h2>
+						<p>
+							I started coding in 2018, and I am a self-taught developer. I love what I am doing, and I am highly motivated to collaborate with someone. If you are up into some projects, just let me know!
+						</p>
+
+						<h3>Technologies that I use:</h3>
+						<div class="row technology">
+							<div class="col-lg-6 mb-5">
+								<ol type="1" class="technology">
+									<li>HTML5</li>
+									<li>CSS3</li>
+									<li>JavaScript</li>
+									<li>MySQL</li>
+									<div class="d-sm-none">
+										<li>Laravel</li>
+										<li>Bootstrap</li>
+										<li>CodeIgniter</li>
+										<li>React.js</li>
+									</div>
+								</ol>
+							</div>
+							<div class="col-lg-6">
+								<ol type="1" start="5" class="d-none d-sm-block technology">
+									<li>Laravel</li>
+									<li>Bootstrap</li>
+									<li>CodeIgniter</li>
+									<li>React.js</li>
+								</ol>
+							</div>
+						</div>
+					</div>
+					<div class="col-lg-6 some-project">
+						<div class="row gy-5 justify-content-center align-items-center text-center">
+							<div class="col-lg-6 some-project-item align-items-center text-center">
+								<a href="./CV.pdf" target="_blank" class="btn btn-cta text-white">DOWNLOAD CV</a>
+							</div>
+						</div>
+					</div>
+				</div>
+				
+			</div>
+		</section>
+
+		<section class="project-area bg-secondary py-5 text-white" id="project">
+			<div class="container">
+				<div class="row gy-5">
+					<h2 class="text-center">My Projects</h2>
+					<div class="col-lg-4 project">
+						<div class="img-holder">
+							<img 
+								src="./images/jobboard.jpg" 
+								alt="Job Board"
+								class="img-fluid"
+							/>
+						</div>
+						<div class="text-holder d-flex justify-content-between">
+							<a href="#"><i class="fab fa-github text-white" aria-hidden="true"></i></a>
+							<h5>Job Board</h5>
+						</div>
+					</div>
+					<div class="col-lg-4 project">
+						<div class="img-holder">
+							<img 
+								src="./images/smpn4.jpg" 
+								alt="SMPN 4 BABELAN"
+								class="img-fluid"
+							/>
+						</div>
+						<div class="text-holder d-flex justify-content-between">
+							<a href="#"><i class="fab fa-github text-white" aria-hidden="true"></i></a>
+							<h5>SMPN 4 Babelan</h5>
+						</div>
+					</div>
+					<div class="col-lg-4 project">
+						<div class="img-holder">
+							<img 
+								src="./images/portofolio.jpg" 
+								alt="Portofolio"
+								class="img-fluid"
+							/>
+						</div>
+						<div class="text-holder d-flex justify-content-between">
+							<a href="#"><i class="fab fa-github text-white" aria-hidden="true"></i></a>
+							<h5>Portofolio</h5>
+						</div>
+					</div>
+				</div>
+			</div>
+		</section>
+
+		<section class="contact-area bg-dark py-5" id="contact">
+			<div class="container">
+				<div class="row justify-content-center">
+					<h2 class="text-center text-white">Contact</h2>
+					<div class="col-lg-6">
+						<form action="mailto:rinaldy.ramadhan999@gmail.com" method="post" enctype="text/plain">
+							<div class="form-group text-white py-3">
+								<label for="">Email</label>
+								<input 
+									type="email"
+									name="mail"
+									placeholder="Your email address"
+									class="form-control" 
+								/>
+							</div>
+							<div class="form-group text-white py-3">
+								<label for="">Subject</label>
+								<input 
+									type="text"
+									name="subject"
+									placeholder="Your subject"
+									class="form-control" 
+								/>
+							</div>
+							<div class="form-group text-white py-3">
+								<label for="">Message</label>
+								<textarea name="subject" cols="15" rows="5" class="form-control" placeholder="Your message"></textarea>
+							</div>
+							<div class="form-group text-white py-3">
+								<button type="submit" class="btn btn-cta btn-block text-white py-2">SEND</button>
+							</div>
+						</form>
+					</div>
+				</div>
+			</div>
+		</section>
+	</main>
+
+	<footer>
+		<section class="some-footer bg-secondary text-white">
+			<div class="container">
+				<div class="row gy-5 justify-content-between">
+					<div class="col-lg-6 text-sm-left text-center">
+						<a href="#" class="text-white mr-3">
+							<i class="fab fa-github fa-2x"></i>
+						</a>
+						<a href="#" class="text-white mr-3">
+							<i class="fab fa-instagram fa-2x"></i>
+						</a>
+					</div>
+					<div class="col-lg-6 text-sm-right text-center">
+						<span>Copyright 2020 © Rinaldy Ramadhan</span>
+					</div>
+				</div>
+			</div>
+		</section>
+	</footer>	
+	<script src="./bootstrap/js/bootstrap.min.js"></script>
+</body>
+</html>

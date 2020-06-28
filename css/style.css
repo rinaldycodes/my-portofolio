@@ -1,0 +1,156 @@
+@import url('https://fonts.googleapis.com/css2?family=Pacifico&family=Ubuntu:wght@300;500;700&display=swap');
+
+body{
+	font-family: 'Ubuntu', sans-serif;
+}
+
+/* ################## NAVBAR AREA ##############*/
+header.header-home{
+	background: url(https://images.unsplash.com/photo-1509718443690-d8e2fb3474b7?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=750&q=80);
+	height: 80vh;
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-position: center;
+  	background-attachment: fixed;
+}
+
+.navbar{
+	padding-top: 20px;
+}
+
+.navbar .navbar-toggler{
+	background: white;
+}
+
+.navbar .navbar-brand{
+	color: #f1f1f1;
+	font-weight: 500;
+	letter-spacing: 2px;
+	font-family: 'Pacifico', cursive;
+}
+
+.navbar .navbar-nav .nav-item .nav-link{
+	color: #f1f1f1;
+	font-size: 1rem;
+	letter-spacing: 2px;
+}
+
+.navbar .navbar-nav .nav-item .nav-link:hover{
+	color: orange;
+	font-size: 1rem;
+	letter-spacing: 2px;
+}
+/* ################## END NAVBAR AREA ##############*/
+
+
+/* ################## ME AREA ##############*/
+section.me {
+	margin: 8rem 0;
+}
+
+section.me p.para1{
+	color: orange;
+	letter-spacing: 2px;
+	font-size: 1rem;
+	line-height: 0px;
+}
+
+section.me p.para2{
+	color: whitesmoke;
+	letter-spacing: 2px;
+	font-size: 1rem;
+	width: 50%;
+	background: #c1c1c1;
+	padding: 5px;
+}
+
+section.me h1{
+	color: #f1f1f1;
+	letter-spacing: 2px;
+	font-size: 3rem;
+}
+
+section.me h2{
+	color: #f1f1f1;
+	letter-spacing: 2px;
+	font-size: 2rem;
+}
+/* ################## END ME AREA ##############*/
+
+/* ################## ABOUT ME AREA ##############*/
+section.about-me {
+	padding: 5rem 0;
+}
+
+section.about-me h2{
+	font-size: 3rem;
+}
+
+section.about-me .technology{
+	font-size: 1rem;
+	letter-spacing: 2px;
+	cursor: pointer;
+	transition: all .2s ease-in-out;
+}
+
+section.about-me ol.technology  li:hover{
+	font-size: 1rem;
+	letter-spacing: 2px;
+	color: orange;
+	transition: 
+	transform: scale(1.1);
+}
+
+
+section.about-me .some-project .some-project-item{
+	transition: all .5s ease-in-out;
+}
+
+section.about-me .some-project .some-project-item:hover{
+	transform: scale(1.1);
+}
+
+section.about-me .some-project .img-holder{
+	border: 10px solid orange;
+}
+
+
+/* ################## END ABOUT ME AREA ##############*/
+
+
+
+/* ##################  PROJECT AREA ##############*/
+
+.project{
+	filter: brightness(50%);
+	transition: all 0.3s ease;
+}
+
+.project:hover {
+	filter: brightness(100%);
+	transform: scale(1.1);
+}
+
+.project .img-holder{
+	border: 5px solid orange;
+}
+
+/* ################## END PROJECT AREA ##############*/
+
+
+section.some-footer{
+	padding: 5rem 0;
+}
+
+/* ################## GLOBALS AREA ##############*/
+.btn-cta {
+	background: orange;
+	transition: all 0.3s ease;
+}
+
+.btn-cta:hover {
+	border: 1px solid orange;
+	background: transparent;
+}
+/* ################## END GLOBALS AREA ##############*/
+
