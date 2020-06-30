@@ -59,7 +59,6 @@ section.me p.para2{
 	color: whitesmoke;
 	letter-spacing: 2px;
 	font-size: 1rem;
-	width: 50%;
 	background: #c1c1c1;
 	padding: 5px;
 }
@@ -74,6 +73,18 @@ section.me h2{
 	color: #f1f1f1;
 	letter-spacing: 2px;
 	font-size: 2rem;
+}
+
+section.me img.img-foto{
+	height: auto;
+	width: 125px;
+	border: 1px solid orange;
+	filter: brightness(50%);
+}
+
+section.me img.img-foto:hover{
+	filter: brightness(100%);
+	cursor: pointer;
 }
 /* ################## END ME AREA ##############*/
 
