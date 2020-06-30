@@ -7,7 +7,6 @@ body{
 /* ################## NAVBAR AREA ##############*/
 header.header-home{
 	background: url(https://images.unsplash.com/photo-1509718443690-d8e2fb3474b7?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=750&q=80);
-	height: 80vh;
 	background-repeat: no-repeat;
 	background-size: cover;
 	background-position: center;
@@ -89,6 +88,18 @@ section.me img.img-foto:hover{
 /* ################## END ME AREA ##############*/
 
 /* ################## ABOUT ME AREA ##############*/
+section.about-me img.img-foto{
+	height: auto;
+	width: 125px;
+	border: 1px solid orange;
+	filter: brightness(50%);
+}
+
+section.about-me img.img-foto:hover{
+	filter: brightness(100%);
+	cursor: pointer;
+}
+
 section.about-me {
 	padding: 5rem 0;
 }

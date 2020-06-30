@@ -1,5 +1,0 @@
----
-deployment:
-  tasks:
-    - export DEPLOYPATH=/home/rh2bnetmyid/public_html/rinaldy
-    - /bin/cp -R * $DEPLOYPATH
